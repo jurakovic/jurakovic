@@ -28,7 +28,7 @@
 	- a collection of useful .NET, architecture, and general software development links
 	- <https://jurakovic.github.io/dev-links/>
 - 📖 [runtime](https://github.com/jurakovic/runtime)
-	- [_The Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository
+	- the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository
 	- <https://jurakovic.github.io/runtime/>
 - ⛈ [meteo](https://github.com/jurakovic/meteo)
 	- a compilation of Croatia and Europe weather radar and satellite images
