@@ -14,6 +14,8 @@
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Linux-311C87?style=flat-square&logo=linux&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Shell-311C87?style=flat-square&logo=gnubash&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
@@ -28,11 +30,14 @@
 	- a collection of useful .NET, architecture, and general software development links
 	- <https://jurakovic.github.io/dev-links/>
 - 📖 [runtime](https://github.com/jurakovic/runtime)
-	- [_The Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository
+	- the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository
 	- <https://jurakovic.github.io/runtime/>
 - ⛈ [meteo](https://github.com/jurakovic/meteo)
 	- a compilation of Croatia and Europe weather radar and satellite images
 	- <https://jurakovic.github.io/meteo/>
+- 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
+	- a simple 2FA command-line utility
+	- <https://jurakovic.github.io/2fa-cli/>
 - ☄ [Comets](https://github.com/jurakovic/Comets) 
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)
