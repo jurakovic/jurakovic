@@ -35,6 +35,9 @@
 - ⛈ [meteo](https://github.com/jurakovic/meteo)
 	- a compilation of Croatia and Europe weather radar and satellite images
 	- <https://jurakovic.github.io/meteo/>
+- 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
+	- a simple command-line utility that allows users to securely add 2FA secrets and get OTP codes directly from the terminal
+	- <https://jurakovic.github.io/2fa-cli/>
 - ☄ [Comets](https://github.com/jurakovic/Comets) 
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)
