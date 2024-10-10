@@ -35,7 +35,7 @@
 - ⛈ [meteo](https://github.com/jurakovic/meteo)
 	- a compilation of Croatia and Europe weather radar and satellite images
 	- <https://jurakovic.github.io/meteo/>
-- 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
+- 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli) <sub><img alt="tech" src="https://img.shields.io/badge/-NEW-FFD600?style=flat-square&logoColor=white" /></sub>
 	- a simple command-line utility that allows users to securely add 2FA secrets and get OTP codes directly from the terminal
 	- <https://jurakovic.github.io/2fa-cli/>
 - ☄ [Comets](https://github.com/jurakovic/Comets) 
