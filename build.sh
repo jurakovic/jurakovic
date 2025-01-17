@@ -28,3 +28,15 @@ tech=$(sed -e 's/[&\\/]/\\&/g; s/$/\\/' -e '$s/\\$//' <<<"$tech")
 
 # replace placeholder in file
 sed -i "s/__TECH__/$tech/" READMEx.md
+
+# load projects
+projects=$(jq -r '.projects[]' data.json)
+
+jq -c '.projects[]' data.json | while read i; do
+  #echo "$i"
+
+  name=$(echo "$i" | jq -r '.name')
+  icon=$(echo "$i" | jq -r '.icon')
+  echo "$name"
+  echo "$icon"
+done
