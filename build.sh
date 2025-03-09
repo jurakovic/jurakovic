@@ -37,6 +37,10 @@ jq -c '.projects[]' data.json | while read i; do
 
   name=$(echo "$i" | jq -r '.name')
   icon=$(echo "$i" | jq -r '.icon')
+  pages=$(echo "$i" | jq -r '.pages')
+  mapfile -t descr < <(echo "$i" | jq -r '.description[]')
   echo "$name"
   echo "$icon"
+  echo "$pages"
+  printf '%s\n' "${descr[@]}"
 done

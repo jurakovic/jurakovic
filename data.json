@@ -1,33 +1,91 @@
 {
-    "tech": [
-        "https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white",
-        "https://img.shields.io/badge/-SQL-2088FF?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Visual%20Studio-1a73e8?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Software%20Development-13aa52?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Software%20Architecture-13aa52?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Microservices-13aa52?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white",
-        "https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white",
-        "https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white",
-        "https://img.shields.io/badge/-Linux-311C87?style=flat-square&logo=linux&logoColor=white",
-        "https://img.shields.io/badge/-Shell-311C87?style=flat-square&logo=gnubash&logoColor=white",
-        "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white",
-        "https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white",
-        "https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white",
-        "https://img.shields.io/badge/-Infrastructure%20as%20Code-DD0031?style=flat-square&logoColor=white"
-    ],
-    "projects": [
-        {
-            "name": "dev-links",
-            "icon": "⭐",
-            "description": [
-                "a collection of useful .NET, architecture, and general software development links"
-            ]
-        }
-    ]
+  "tech": [
+    "https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white",
+    "https://img.shields.io/badge/-SQL-2088FF?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Visual%20Studio-1a73e8?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Software%20Development-13aa52?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Software%20Architecture-13aa52?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Microservices-13aa52?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white",
+    "https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white",
+    "https://img.shields.io/badge/-Linux-311C87?style=flat-square&logo=linux&logoColor=white",
+    "https://img.shields.io/badge/-Shell-311C87?style=flat-square&logo=gnubash&logoColor=white",
+    "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white",
+    "https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white",
+    "https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Infrastructure%20as%20Code-DD0031?style=flat-square&logoColor=white"
+  ],
+  "projects": [
+    {
+      "name": "dev-links",
+      "icon": "⭐",
+      "pages": true,
+      "description": [
+        "a collection of useful .NET, architecture, and general software development links"
+      ]
+    },
+    {
+      "name": "runtime",
+      "icon": "📖",
+      "pages": true,
+      "description": [
+        "the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository"
+      ]
+    },
+    {
+      "name": "meteo",
+      "icon": "⛈",
+      "pages": true,
+      "description": [
+        "a compilation of Croatia and Europe weather radar and satellite images"
+      ]
+    },
+    {
+      "name": "2fa-cli",
+      "icon": "🔑",
+      "pages": true,
+      "description": [
+        "a simple 2FA command-line utility"
+      ]
+    },
+    {
+      "name": "Comets",
+      "icon": "☄",
+      "pages": true,
+      "description": [
+        "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer",
+        "archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)"
+      ]
+    },
+    {
+      "name": "OrbitViewer.NET",
+      "icon": "🪐",
+      "pages": true,
+      "description": [
+        "C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet"
+      ]
+    },
+    {
+      "name": "cayman-blue",
+      "icon": "🟦",
+      "pages": true,
+      "description": [
+        "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
+      ]
+    },
+    {
+      "name": "PowerTimer",
+      "icon": "🔋",
+      "pages": false,
+      "description": [
+        "small Windows shut down timer"
+      ]
+    }
+  ]
 }
