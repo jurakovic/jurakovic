@@ -23,7 +23,7 @@
   ],
   "projects": [
     {
-      "name": "dev-links",
+      "repo": "dev-links",
       "icon": "⭐",
       "pages": true,
       "description": [
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "runtime",
+      "repo": "runtime",
       "icon": "📖",
       "pages": true,
       "description": [
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "name": "meteo",
+      "repo": "meteo",
       "icon": "⛈",
       "pages": true,
       "description": [
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "name": "2fa-cli",
+      "repo": "2fa-cli",
       "icon": "🔑",
       "pages": true,
       "description": [
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "name": "Comets",
+      "repo": "Comets",
       "icon": "☄",
       "pages": true,
       "description": [
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "name": "OrbitViewer.NET",
+      "repo": "OrbitViewer.NET",
       "icon": "🪐",
       "pages": true,
       "description": [
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "name": "cayman-blue",
+      "repo": "cayman-blue",
       "icon": "🟦",
       "pages": true,
       "description": [
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "name": "PowerTimer",
+      "repo": "PowerTimer",
       "icon": "🔋",
       "pages": false,
       "description": [

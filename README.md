@@ -38,7 +38,7 @@
 - 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
 	- a simple 2FA command-line utility
 	- <https://jurakovic.github.io/2fa-cli/>
-- ☄ [Comets](https://github.com/jurakovic/Comets) 
+- ☄ [Comets](https://github.com/jurakovic/Comets)
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)
 	- <https://jurakovic.github.io/Comets/>

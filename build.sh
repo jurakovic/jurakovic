@@ -1,46 +1,53 @@
 #!/bin/bash
 
-# template
-cat << EOF > READMEx.md
+file="README.md"
+
+cat << EOF > $file
 
 #### Technologies / Tools / Skills
 
 <p align="center">
-__TECH__
+EOF
+
+tech=$(jq -r '.tech[] | "	<img alt=\"tech\" src=\"\(.)\" />"' data.json)
+echo "$tech" >> $file
+
+cat << EOF >> $file
 </p>
 
 #### Some Projects
 
-__PROJECTS__
+EOF
+
+user="jurakovic"
+projects=$(jq -r '.projects[]' data.json)
+
+jq -c '.projects[]' data.json | while read i; do
+  repo=$(echo "$i" | jq -r '.repo')
+  icon=$(echo "$i" | jq -r '.icon')
+  pages=$(echo "$i" | jq -r '.pages')
+  mapfile -t descr < <(echo "$i" | jq -r '.description[]')
+
+  echo "- $icon [$repo](https://github.com/$user/$repo)" >> $file
+
+  for line in "${descr[@]}"; do
+    echo "	- $line" >> $file
+  done
+
+  if [ $pages == "true" ]
+  then
+    echo "	- <https://$user.github.io/$repo/>" >> $file
+  fi
+done
+
+cat << EOF >> $file
 
 #### Language Stats
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark)
-
 EOF
-# end of template
 
-# load tech stack
-tech=$(jq -r '.tech[] | "    <img alt=\"tech\" src=\"\(.)\" />"' data.json)
+# fix line ending
+dos2unix -q "$file"
 
-# escale special scaracters (src: https://unix.stackexchange.com/a/519305)
-tech=$(sed -e 's/[&\\/]/\\&/g; s/$/\\/' -e '$s/\\$//' <<<"$tech")
-
-# replace placeholder in file
-sed -i "s/__TECH__/$tech/" READMEx.md
-
-# load projects
-projects=$(jq -r '.projects[]' data.json)
-
-jq -c '.projects[]' data.json | while read i; do
-  #echo "$i"
-
-  name=$(echo "$i" | jq -r '.name')
-  icon=$(echo "$i" | jq -r '.icon')
-  pages=$(echo "$i" | jq -r '.pages')
-  mapfile -t descr < <(echo "$i" | jq -r '.description[]')
-  echo "$name"
-  echo "$icon"
-  echo "$pages"
-  printf '%s\n' "${descr[@]}"
-done
+echo "Done"
