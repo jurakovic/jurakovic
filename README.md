@@ -12,16 +12,17 @@
 	<img alt="tech" src="https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Linux-311C87?style=flat-square&logo=linux&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Shell-311C87?style=flat-square&logo=gnubash&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Infrastructure%20as%20Code-DD0031?style=flat-square&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Linux-311C87?style=flat-square&logo=linux&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Bash-311C87?style=flat-square&logo=gnubash&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white" />
 </p>
 
 #### Some Projects
@@ -38,6 +39,9 @@
 - 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
 	- a simple 2FA command-line utility
 	- <https://jurakovic.github.io/2fa-cli/>
+- 🆔 [guidreplace](https://github.com/jurakovic/guidreplace)
+	- a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input
+	- <https://jurakovic.github.io/guidreplace/>
 - ☄ [Comets](https://github.com/jurakovic/Comets) 
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)
