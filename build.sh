@@ -1,53 +1,54 @@
 #!/bin/bash
 
-file="README.md"
+user="jurakovic"
+json="data.json"
+readme="README.md"
 
-cat << EOF > $file
+cat << EOF > $readme
 
 #### Technologies / Tools / Skills
 
 <p align="center">
 EOF
 
-tech=$(jq -r '.tech[] | "	<img alt=\"tech\" src=\"\(.)\" />"' data.json)
-echo "$tech" >> $file
+tech=$(jq -r '.tech[] | "	<img alt=\"tech\" src=\"\(.)\" />"' "$json")
+echo "$tech" >> $readme
 
-cat << EOF >> $file
+cat << EOF >> $readme
 </p>
 
 #### Some Projects
 
 EOF
 
-user="jurakovic"
-projects=$(jq -r '.projects[]' data.json)
+projects=$(jq -r '.projects[]' "$json")
 
-jq -c '.projects[]' data.json | while read i; do
+jq -c '.projects[]' "$json" | while read i; do
   repo=$(echo "$i" | jq -r '.repo')
   icon=$(echo "$i" | jq -r '.icon')
   pages=$(echo "$i" | jq -r '.pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
 
-  echo "- $icon [$repo](https://github.com/$user/$repo)" >> $file
+  echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
 
   for line in "${descr[@]}"; do
-    echo "	- $line" >> $file
+    echo "	- $line" >> $readme
   done
 
   if [ $pages == "true" ]
   then
-    echo "	- <https://$user.github.io/$repo/>" >> $file
+    echo "	- <https://$user.github.io/$repo/>" >> $readme
   fi
 done
 
-cat << EOF >> $file
+cat << EOF >> $readme
 
 #### Language Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=$user&layout=compact&hide=java&theme=github_dark)
 EOF
 
 # fix line ending
-dos2unix -q "$file"
+dos2unix -q "$readme"
 
 echo "Done"
