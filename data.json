@@ -56,6 +56,14 @@
       ]
     },
     {
+      "repo": "guidreplace",
+      "icon": "🆔",
+      "pages": true,
+      "description": [
+        "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
+      ]
+    },
+    {
       "repo": "Comets",
       "icon": "☄",
       "pages": true,
@@ -74,7 +82,7 @@
     },
     {
       "repo": "cayman-blue",
-      "icon": "🟦",
+      "icon": "🔵",
       "pages": true,
       "description": [
         "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
