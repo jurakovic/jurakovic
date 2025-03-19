@@ -35,7 +35,7 @@ jq -c '.projects[]' "$json" | while read i; do
     echo "	- $line" >> $readme
   done
 
-  if [ $pages == "true" ]
+  if [ "$pages" == "true" ]
   then
     echo "	- <https://$user.github.io/$repo/>" >> $readme
   fi
