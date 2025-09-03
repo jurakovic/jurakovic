@@ -12,8 +12,9 @@
 	<img alt="tech" src="https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white" />
-	<img alt="tech" src="https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white" />
+	<img alt="tech" src="https://img.shields.io/badge/-GitHub%20Actions-D24939?style=flat-square&logo=github&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white" />
 	<img alt="tech" src="https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white" />
@@ -60,4 +61,8 @@
 
 #### Language Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jurakovic&layout=compact&hide=java&theme=github_dark_dimmed">
+</picture>
