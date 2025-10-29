@@ -57,7 +57,9 @@ cat << EOF >> $readme
 </picture>
 EOF
 
-# fix line ending
-dos2unix -q "$readme"
+if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
+  # fix line ending
+  dos2unix -q "$readme"
+fi
 
 echo "Done"
