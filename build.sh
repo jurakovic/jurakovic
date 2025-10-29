@@ -28,10 +28,15 @@ jq -c '.projects[]' "$json" | while read i; do
   icon=$(echo "$i" | jq -r '.icon')
   pages=$(echo "$i" | jq -r '.pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
+  mapfile -t readmeDescr < <(echo "$i" | jq -r '.readmeDescr[]?')
 
   echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
 
   for line in "${descr[@]}"; do
+    echo "	- $line" >> $readme
+  done
+
+  for line in "${readmeDescr[@]}"; do
     echo "	- $line" >> $readme
   done
 

@@ -77,8 +77,13 @@
       "icon": "☄",
       "pages": true,
       "description": [
-        "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer",
+        "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
+      ],
+      "readmeDescr": [
         "archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)"
+      ],
+      "pagesRepo": [
+        "<https://github.com/jurakovic/Comets-Archive>"
       ]
     },
     {
