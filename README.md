@@ -46,14 +46,14 @@
 - 🕗 [TimestampCopy](https://github.com/jurakovic/TimestampCopy)
 	- Windows File Explorer context menu to copy and paste file and folder timestamps
 	- <https://jurakovic.github.io/TimestampCopy/>
-- ☄ [Comets](https://github.com/jurakovic/Comets) 
+- ☄ [Comets](https://github.com/jurakovic/Comets)
 	- comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 	- archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)
 	- <https://jurakovic.github.io/Comets/>
 - 🪐 [OrbitViewer.NET](https://github.com/jurakovic/OrbitViewer.NET)
 	- C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
 	- <https://jurakovic.github.io/OrbitViewer.NET/>
-- 🟦 [cayman-blue](https://github.com/jurakovic/cayman-blue)
+- 🔵 [cayman-blue](https://github.com/jurakovic/cayman-blue)
 	- [Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites
 	- <https://jurakovic.github.io/cayman-blue/>
 - 🔋 [PowerTimer](https://github.com/jurakovic/PowerTimer)

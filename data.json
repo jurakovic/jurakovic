@@ -10,8 +10,9 @@
     "https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white",
-    "https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white",
+    "https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-GitHub%20Actions-D24939?style=flat-square&logo=github&logoColor=white",
     "https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white",
     "https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white",
@@ -61,6 +62,14 @@
       "pages": true,
       "description": [
         "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
+      ]
+    },
+    {
+      "repo": "TimestampCopy",
+      "icon": "🕗",
+      "pages": true,
+      "description": [
+        "Windows File Explorer context menu to copy and paste file and folder timestamps"
       ]
     },
     {
