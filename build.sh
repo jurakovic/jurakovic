@@ -4,12 +4,44 @@ user="jurakovic"
 json="data.json"
 readme="README.md"
 
-cat << EOF > $readme
+currRepo=$(basename -s .git $(git config --get remote.origin.url))
+isReadmeRepo=true
+
+if [ "$currRepo" != "$user" ]; then
+  isReadmeRepo=false
+fi
+
+#echo $currRepo
+#echo $isReadmeRepo
+
+if [ "$isReadmeRepo" = true ]; then
+
+  cat << EOF > $readme
 
 #### Technologies / Tools / Skills
 
 <p align="center">
 EOF
+
+else
+
+  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
+
+  cat << EOF > $readme
+
+<p align="center">
+    <a href="https://github.com/$user">
+        <img align="center" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17744091?v=4&h=260&w=260&fit=cover&mask=circle&maxage=1d" alt="$user" class="responsive-image" />
+    </a>
+</p>
+<br>
+
+#### Technologies / Tools / Skills
+
+<p align="center">
+EOF
+
+fi
 
 tech=$(jq -r '.tech[] | "	<img alt=\"tech\" src=\"\(.)\" />"' "$json")
 echo "$tech" >> $readme
@@ -29,20 +61,43 @@ jq -c '.projects[]' "$json" | while read i; do
   pages=$(echo "$i" | jq -r '.pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
   mapfile -t readmeDescr < <(echo "$i" | jq -r '.readmeDescr[]?')
+  mapfile -t pagesRepo < <(echo "$i" | jq -r '.pagesRepo[]?')
 
-  echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
+  if [ "$isReadmeRepo" = true ]; then
 
-  for line in "${descr[@]}"; do
-    echo "	- $line" >> $readme
-  done
+    echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
+    
+    for line in "${descr[@]}"; do
+      echo "	- $line" >> $readme
+    done
+    
+    for line in "${readmeDescr[@]}"; do
+      echo "	- $line" >> $readme
+    done
+    
+    if [ "$pages" == "true" ]
+    then
+      echo "	- <https://$user.github.io/$repo/>" >> $readme
+    fi
 
-  for line in "${readmeDescr[@]}"; do
-    echo "	- $line" >> $readme
-  done
+  else
 
-  if [ "$pages" == "true" ]
-  then
-    echo "	- <https://$user.github.io/$repo/>" >> $readme
+    if [ "$pages" == "true" ]
+    then
+      echo "- $icon [$repo](https://$user.github.io/$repo/)" >> $readme
+    else
+      echo "- $icon $repo" >> $readme
+    fi
+    
+    for line in "${descr[@]}"; do
+      echo "	- $line" >> $readme
+    done
+    
+    echo "	- <https://github.com/$user/$repo>" >> $readme
+    
+    for line in "${pagesRepo[@]}"; do
+      echo "	- $line" >> $readme
+    done
   fi
 done
 
