@@ -11,21 +11,9 @@ if [ "$currRepo" != "$user" ]; then
   isReadmeRepo=false
 fi
 
-#echo $currRepo
-#echo $isReadmeRepo
+if [ "$isReadmeRepo" = false ]; then
 
-if [ "$isReadmeRepo" = true ]; then
-
-  cat << EOF > $readme
-
-#### Technologies / Tools / Skills
-
-<p align="center">
-EOF
-
-else
-
-  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
+  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/build/data.json
 
   cat << EOF > $readme
 
@@ -36,14 +24,20 @@ else
 </p>
 <br>
 
+EOF
+
+else
+  echo "" > $readme
+fi
+
+cat << EOF >> $readme
 #### Technologies / Tools / Skills
 
 <p align="center">
 EOF
 
-fi
 
-tech=$(jq -r '.tech[] | "	<img alt=\"tech\" src=\"\(.)\" />"' "$json")
+tech=$(jq -r '.tech[] | "    <img alt=\"tech\" src=\"\(.)\" />"' "$json")
 echo "$tech" >> $readme
 
 cat << EOF >> $readme
@@ -68,16 +62,16 @@ jq -c '.projects[]' "$json" | while read i; do
     echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
     
     for line in "${descr[@]}"; do
-      echo "	- $line" >> $readme
+      echo "    - $line" >> $readme
     done
     
     for line in "${readmeDescr[@]}"; do
-      echo "	- $line" >> $readme
+      echo "    - $line" >> $readme
     done
     
     if [ "$pages" == "true" ]
     then
-      echo "	- <https://$user.github.io/$repo/>" >> $readme
+      echo "    - <https://$user.github.io/$repo/>" >> $readme
     fi
 
   else
@@ -90,13 +84,13 @@ jq -c '.projects[]' "$json" | while read i; do
     fi
     
     for line in "${descr[@]}"; do
-      echo "	- $line" >> $readme
+      echo "    - $line" >> $readme
     done
     
-    echo "	- <https://github.com/$user/$repo>" >> $readme
+    echo "    - <https://github.com/$user/$repo>" >> $readme
     
     for line in "${pagesRepo[@]}"; do
-      echo "	- $line" >> $readme
+      echo "    - $line" >> $readme
     done
   fi
 done
