@@ -13,7 +13,7 @@ fi
 
 if [ "$isReadmeRepo" = false ]; then
 
-  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/build/data.json
+  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
 
   cat << EOF > $readme
 
