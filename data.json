@@ -49,6 +49,14 @@
       ]
     },
     {
+      "repo": "view-all-branches",
+      "icon": "🪾",
+      "pages": true,
+      "description": [
+        "a browser extension that takes you directly to the 'All Branches' page"
+      ]
+    },
+    {
       "repo": "2fa-cli",
       "icon": "🔑",
       "pages": true,
