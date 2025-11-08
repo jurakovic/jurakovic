@@ -37,7 +37,7 @@
 - ⛈ [meteo](https://github.com/jurakovic/meteo)
     - a compilation of Croatia and Europe weather radar and satellite images
     - <https://jurakovic.github.io/meteo/>
-- 🪾 [view-all-branches](https://github.com/jurakovic/view-all-branches)
+- 🌳 [view-all-branches](https://github.com/jurakovic/view-all-branches)
     - a browser extension that takes you directly to the 'All Branches' page
     - <https://jurakovic.github.io/view-all-branches/>
 - 🔑 [2fa-cli](https://github.com/jurakovic/2fa-cli)
