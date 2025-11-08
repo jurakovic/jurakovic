@@ -50,7 +50,7 @@
     },
     {
       "repo": "view-all-branches",
-      "icon": "🪾",
+      "icon": "🌳",
       "pages": true,
       "description": [
         "a browser extension that takes you directly to the 'All Branches' page"
