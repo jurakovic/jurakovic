@@ -1,0 +1,57 @@
+name: Update stats
+
+on:
+  schedule:
+    - cron: "0 6 1,15 * *" # At 06:00 on day-of-month 1 and 15
+  workflow_dispatch:
+    inputs:
+      target_branch:
+        required: true
+        default: stats
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ inputs.target_branch || 'stats' }}
+
+      - name: Git Config
+        run: |
+          git config core.fileMode false
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        shell: bash
+
+      - name: Update top-langs (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide=java
+          path: top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update top-langs (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide=java&theme=github_dark_dimmed
+          path: top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Git Commit
+        run: |
+          git status -s
+          git add .
+          git diff --cached --quiet --exit-code
+          if [ $? -eq 0 ]; then echo "No git changes"; exit 0; fi
+
+          git commit -m "Update stats"
+          git push
+        shell: bash {0}
