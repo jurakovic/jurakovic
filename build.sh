@@ -97,6 +97,10 @@ done
 
 cat << EOF >> $readme
 
+#### GitHub Activity
+
+<img src="https://ghchart.rshah.org/jurakovic" alt="GitHub Activity" />
+
 #### Language Stats
 
 <picture>
