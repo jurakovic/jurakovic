@@ -24,8 +24,8 @@
     <img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white" />
-    <img alt="tech" src="https://img.shields.io/badge/-Claude_Code-000000?style=flat-square&logo=anthropic&logoColor=white" />
-    <img alt="tech" src="https://img.shields.io/badge/-GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" />
+    <img alt="tech" src="https://img.shields.io/badge/-Claude_Code-D87B5C?style=flat-square&logo=claude&logoColor=white" />
+    <img alt="tech" src="https://img.shields.io/badge/-GitHub_Copilot-CB77D6?style=flat-square&logo=githubcopilot&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white" />
 </p>
 
