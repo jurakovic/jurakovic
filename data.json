@@ -10,9 +10,12 @@
     "https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white",
+    "https://img.shields.io/badge/-Claude_Code-D87B5C?style=flat-square&logo=claude&logoColor=white",
+    "https://img.shields.io/badge/-GitHub_Copilot-CB77D6?style=flat-square&logo=githubcopilot&logoColor=white",
+    "https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white",
     "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white",
     "https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white",
-    "https://img.shields.io/badge/-GitHub%20Actions-D24939?style=flat-square&logo=github&logoColor=white",
+    "https://img.shields.io/badge/-GitHub%20Actions-D24939?style=flat-square&logo=githubactions&logoColor=white",
     "https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white",
     "https://img.shields.io/badge/-DevOps-DD0031?style=flat-square&logoColor=white",
     "https://img.shields.io/badge/-GitOps-DD0031?style=flat-square&logoColor=white",
@@ -51,7 +54,7 @@
     {
       "repo": "view-all-branches",
       "icon": "🌳",
-      "pages": true,
+      "pages": false,
       "description": [
         "a browser extension that takes you directly to the 'All Branches' page"
       ]
@@ -59,7 +62,7 @@
     {
       "repo": "2fa-cli",
       "icon": "🔑",
-      "pages": true,
+      "pages": false,
       "description": [
         "a simple 2FA command-line utility"
       ]
@@ -67,7 +70,7 @@
     {
       "repo": "guidreplace",
       "icon": "🆔",
-      "pages": true,
+      "pages": false,
       "description": [
         "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
       ]
@@ -75,7 +78,7 @@
     {
       "repo": "TimestampCopy",
       "icon": "🕗",
-      "pages": true,
+      "pages": false,
       "description": [
         "Windows File Explorer context menu to copy and paste file and folder timestamps"
       ]
@@ -83,7 +86,7 @@
     {
       "repo": "Comets",
       "icon": "☄",
-      "pages": true,
+      "pages": false,
       "description": [
         "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
       ],
@@ -97,7 +100,7 @@
     {
       "repo": "OrbitViewer.NET",
       "icon": "🪐",
-      "pages": true,
+      "pages": false,
       "description": [
         "C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet"
       ]
@@ -105,7 +108,7 @@
     {
       "repo": "cayman-blue",
       "icon": "🔵",
-      "pages": true,
+      "pages": false,
       "description": [
         "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
       ]

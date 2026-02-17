@@ -59,7 +59,7 @@ jq -c '.projects[]' "$json" | while read i; do
 
   if [ "$isReadmeRepo" = true ]; then
 
-    echo "- $icon [$repo](https://github.com/$user/$repo)" >> $readme
+    echo "- $icon [**$repo**](https://github.com/$user/$repo)" >> $readme
     
     for line in "${descr[@]}"; do
       echo "    - $line" >> $readme
@@ -96,6 +96,10 @@ jq -c '.projects[]' "$json" | while read i; do
 done
 
 cat << EOF >> $readme
+
+#### GitHub Activity
+
+<img src="https://ghchart.rshah.org/jurakovic" alt="GitHub Activity" />
 
 #### Language Stats
 
