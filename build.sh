@@ -52,7 +52,8 @@ projects=$(jq -r '.projects[]' "$json")
 jq -c '.projects[]' "$json" | while read i; do
   repo=$(echo "$i" | jq -r '.repo')
   icon=$(echo "$i" | jq -r '.icon')
-  pages=$(echo "$i" | jq -r '.pages')
+  readme_pages=$(echo "$i" | jq -r '.readme_pages')
+  githubio_pages=$(echo "$i" | jq -r '.githubio_pages')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
   mapfile -t readmeDescr < <(echo "$i" | jq -r '.readmeDescr[]?')
   mapfile -t pagesRepo < <(echo "$i" | jq -r '.pagesRepo[]?')
@@ -69,20 +70,20 @@ jq -c '.projects[]' "$json" | while read i; do
       echo "    - $line" >> $readme
     done
     
-    if [ "$pages" == "true" ]
+    if [ "$readme_pages" == "true" ]
     then
       echo "    - <https://$user.github.io/$repo/>" >> $readme
     fi
 
   else
 
-    if [ "$pages" == "true" ]
+    if [ "$githubio_pages" == "true" ]
     then
-      echo "- $icon [$repo](https://$user.github.io/$repo/)" >> $readme
+      echo "- $icon [**$repo**](https://$user.github.io/$repo/)" >> $readme
     else
       echo "- $icon $repo" >> $readme
     fi
-    
+
     for line in "${descr[@]}"; do
       echo "    - $line" >> $readme
     done
