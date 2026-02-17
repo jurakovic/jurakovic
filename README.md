@@ -12,6 +12,9 @@
     <img alt="tech" src="https://img.shields.io/badge/-Trunk%20Based%20Development-5849BE?style=flat-square&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Continuous%20Integration-5849BE?style=flat-square&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Continuous%20Delivery-5849BE?style=flat-square&logoColor=white" />
+    <img alt="tech" src="https://img.shields.io/badge/-Claude_Code-D87B5C?style=flat-square&logo=claude&logoColor=white" />
+    <img alt="tech" src="https://img.shields.io/badge/-GitHub_Copilot-CB77D6?style=flat-square&logo=githubcopilot&logoColor=white" />
+    <img alt="tech" src="https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Azure_DevOps-D24939?style=flat-square&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-GitHub%20Actions-D24939?style=flat-square&logo=githubactions&logoColor=white" />
@@ -24,9 +27,6 @@
     <img alt="tech" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
     <img alt="tech" src="https://img.shields.io/badge/-Argo_CD-326CE5?style=flat-square&logo=argo&logoColor=white" />
-    <img alt="tech" src="https://img.shields.io/badge/-Claude_Code-D87B5C?style=flat-square&logo=claude&logoColor=white" />
-    <img alt="tech" src="https://img.shields.io/badge/-GitHub_Copilot-CB77D6?style=flat-square&logo=githubcopilot&logoColor=white" />
-    <img alt="tech" src="https://img.shields.io/badge/-CLI-000000?style=flat-square&logo=gnu-bash&logoColor=white" />
 </p>
 
 #### Some Projects
