@@ -5,15 +5,18 @@ json="data.json"
 readme="README.md"
 
 currRepo=$(basename -s .git $(git config --get remote.origin.url))
-isReadmeRepo=true
+repoType="readme"
 
-if [ "$currRepo" != "$user" ]; then
-  isReadmeRepo=false
+if [ $currRepo != $user ]; then
+  repoType="githubio"
 fi
 
-if [ "$isReadmeRepo" = false ]; then
+echo "currRepo: $currRepo"
+echo "repoType: $repoType"
 
-  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
+if [ "$repoType" = "githubio" ]; then
+
+  #curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
 
   cat << EOF > $readme
 
@@ -52,32 +55,32 @@ projects=$(jq -r '.projects[]' "$json")
 jq -c '.projects[]' "$json" | while read i; do
   repo=$(echo "$i" | jq -r '.repo')
   icon=$(echo "$i" | jq -r '.icon')
-  readme_pages=$(echo "$i" | jq -r '.readme_pages')
-  githubio_pages=$(echo "$i" | jq -r '.githubio_pages')
+  readme_show_pages=$(echo "$i" | jq -r '.readme_show_pages')
+  githubio_show_pages=$(echo "$i" | jq -r '.githubio_show_pages')
+  githubio_show_repo=$(echo "$i" | jq -r '.githubio_show_repo')
   mapfile -t descr < <(echo "$i" | jq -r '.description[]')
   mapfile -t readmeDescr < <(echo "$i" | jq -r '.readmeDescr[]?')
-  mapfile -t pagesRepo < <(echo "$i" | jq -r '.pagesRepo[]?')
 
-  if [ "$isReadmeRepo" = true ]; then
+  if [ "$repoType" = "readme" ]; then
 
     echo "- $icon [**$repo**](https://github.com/$user/$repo)" >> $readme
-    
+
     for line in "${descr[@]}"; do
       echo "    - $line" >> $readme
     done
-    
+
     for line in "${readmeDescr[@]}"; do
       echo "    - $line" >> $readme
     done
-    
-    if [ "$readme_pages" == "true" ]
+
+    if [ "$readme_show_pages" == "true" ]
     then
       echo "    - <https://$user.github.io/$repo/>" >> $readme
     fi
 
-  else
+  else # githubio
 
-    if [ "$githubio_pages" == "true" ]
+    if [ "$githubio_show_pages" == "true" ]
     then
       echo "- $icon [**$repo**](https://$user.github.io/$repo/)" >> $readme
     else
@@ -87,12 +90,11 @@ jq -c '.projects[]' "$json" | while read i; do
     for line in "${descr[@]}"; do
       echo "    - $line" >> $readme
     done
-    
-    echo "    - <https://github.com/$user/$repo>" >> $readme
-    
-    for line in "${pagesRepo[@]}"; do
-      echo "    - $line" >> $readme
-    done
+
+    if [ "$githubio_show_repo" == "true" ]
+    then
+      echo "    - <https://github.com/$user/$repo>" >> $readme
+    fi
   fi
 done
 

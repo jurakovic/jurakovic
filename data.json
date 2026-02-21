@@ -30,9 +30,9 @@
     {
       "repo": "dev-links",
       "icon": "⭐",
-      "readme_pages": true,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": true,
+      "githubio_show_pages": true,
+      "githubio_show_repo": true,
       "description": [
         "a collection of useful .NET, architecture, and general software development links"
       ]
@@ -40,9 +40,9 @@
     {
       "repo": "runtime",
       "icon": "📖",
-      "readme_pages": true,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": true,
+      "githubio_show_pages": true,
+      "githubio_show_repo": true,
       "description": [
         "the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository"
       ]
@@ -50,9 +50,9 @@
     {
       "repo": "meteo",
       "icon": "⛈",
-      "readme_pages": true,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": true,
+      "githubio_show_pages": true,
+      "githubio_show_repo": true,
       "description": [
         "a compilation of Croatia and Europe weather radar and satellite images"
       ]
@@ -60,9 +60,9 @@
     {
       "repo": "view-all-branches",
       "icon": "🌳",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "a browser extension that takes you directly to the 'All Branches' page"
       ]
@@ -70,9 +70,9 @@
     {
       "repo": "2fa-cli",
       "icon": "🔑",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "a simple 2FA command-line utility"
       ]
@@ -80,9 +80,9 @@
     {
       "repo": "guidreplace",
       "icon": "🆔",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
       ]
@@ -90,9 +90,9 @@
     {
       "repo": "TimestampCopy",
       "icon": "🕗",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "Windows File Explorer context menu to copy and paste file and folder timestamps"
       ]
@@ -100,25 +100,22 @@
     {
       "repo": "Comets",
       "icon": "☄",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
       ],
       "readmeDescr": [
         "archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)"
-      ],
-      "pagesRepo": [
-        "<https://github.com/jurakovic/Comets-Archive>"
       ]
     },
     {
       "repo": "OrbitViewer.NET",
       "icon": "🪐",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet"
       ]
@@ -126,9 +123,9 @@
     {
       "repo": "cayman-blue",
       "icon": "🔵",
-      "readme_pages": false,
-      "githubio_pages": true,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
       "description": [
         "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
       ]
@@ -136,9 +133,9 @@
     {
       "repo": "PowerTimer",
       "icon": "🔋",
-      "readme_pages": false,
-      "githubio_pages": false,
-      "githubio_repo": false,
+      "readme_show_pages": false,
+      "githubio_show_pages": false,
+      "githubio_show_repo": true,
       "description": [
         "small Windows shut down timer"
       ]
