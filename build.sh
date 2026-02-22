@@ -111,6 +111,11 @@ cat << EOF >> $readme
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/stats/top-langs-light.svg">
   <img src="https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/stats/top-langs-dark.svg">
 </picture>
+
+#### Build Status
+
+[![Update stats](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml/badge.svg)](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml)
+[![Build Readme](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml)
 EOF
 
 if [ "$(expr substr $(uname -s) 1 5)" == "MINGW" ]; then
