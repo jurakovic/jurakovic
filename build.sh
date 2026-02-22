@@ -16,7 +16,7 @@ echo "repoType: $repoType"
 
 if [ "$repoType" = "githubio" ]; then
 
-  #curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
+  curl -Sso data.json https://raw.githubusercontent.com/jurakovic/jurakovic/refs/heads/master/data.json
 
   cat << EOF > $readme
 
