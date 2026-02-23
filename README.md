@@ -1,11 +1,4 @@
 
-<p align="center">
-    <a href="https://github.com/jurakovic">
-        <img align="center" src="https://images.weserv.nl/?url=avatars.githubusercontent.com/u/17744091?v=4&h=260&w=260&fit=cover&mask=circle&maxage=1d" alt="jurakovic" class="responsive-image" />
-    </a>
-</p>
-<br>
-
 #### Technologies / Tools / Skills
 
 <p align="center">
@@ -38,25 +31,25 @@
 
 #### Some Projects
 
-&nbsp; ⭐ [**dev-links**](https://jurakovic.github.io/dev-links/) / a collection of useful .NET, architecture, and general software development links ([GitHub](https://github.com/jurakovic/dev-links))
+&nbsp; ⭐ [**dev-links**](https://github.com/jurakovic/dev-links) / a collection of useful .NET, architecture, and general software development links ([GitHub Pages](https://jurakovic.github.io/dev-links/))
 
-&nbsp; 📖 [**runtime**](https://jurakovic.github.io/runtime/) / the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository ([GitHub](https://github.com/jurakovic/runtime))
+&nbsp; 📖 [**runtime**](https://github.com/jurakovic/runtime) / the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository ([GitHub Pages](https://jurakovic.github.io/runtime/))
 
-&nbsp; ⛈ [**meteo**](https://jurakovic.github.io/meteo/) / a compilation of Croatia and Europe weather radar and satellite images ([GitHub](https://github.com/jurakovic/meteo))
+&nbsp; ⛈ [**meteo**](https://github.com/jurakovic/meteo) / a compilation of Croatia and Europe weather radar and satellite images ([GitHub Pages](https://jurakovic.github.io/meteo/))
 
-&nbsp; 🌳 [**view-all-branches**](https://jurakovic.github.io/view-all-branches/) / a browser extension that takes you directly to the 'All Branches' page
+&nbsp; 🌳 [**view-all-branches**](https://github.com/jurakovic/view-all-branches) / a browser extension that takes you directly to the 'All Branches' page
 
-&nbsp; 🔑 [**2fa-cli**](https://jurakovic.github.io/2fa-cli/) / a simple 2FA command-line utility
+&nbsp; 🔑 [**2fa-cli**](https://github.com/jurakovic/2fa-cli) / a simple 2FA command-line utility
 
-&nbsp; 🆔 [**guidreplace**](https://jurakovic.github.io/guidreplace/) / a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input
+&nbsp; 🆔 [**guidreplace**](https://github.com/jurakovic/guidreplace) / a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input
 
-&nbsp; 🕗 [**TimestampCopy**](https://jurakovic.github.io/TimestampCopy/) / Windows File Explorer context menu to copy and paste file and folder timestamps
+&nbsp; 🕗 [**TimestampCopy**](https://github.com/jurakovic/TimestampCopy) / Windows File Explorer context menu to copy and paste file and folder timestamps
 
-&nbsp; ☄ [**Comets**](https://jurakovic.github.io/Comets/) / comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
+&nbsp; ☄ [**Comets**](https://github.com/jurakovic/Comets) / comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
 
-&nbsp; 🪐 [**OrbitViewer.NET**](https://jurakovic.github.io/OrbitViewer.NET/) / C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
+&nbsp; 🪐 [**OrbitViewer.NET**](https://github.com/jurakovic/OrbitViewer.NET) / C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
 
-&nbsp; 🔵 [**cayman-blue**](https://jurakovic.github.io/cayman-blue/) / [Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites
+&nbsp; 🔵 [**cayman-blue**](https://github.com/jurakovic/cayman-blue) / [Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites
 
 &nbsp; 🔋 [**PowerTimer**](https://github.com/jurakovic/PowerTimer) / small Windows shut down timer
 
