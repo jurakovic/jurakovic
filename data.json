@@ -33,9 +33,7 @@
       "readme_show_pages": true,
       "githubio_show_pages": true,
       "githubio_show_repo": true,
-      "description": [
-        "a collection of useful .NET, architecture, and general software development links"
-      ]
+      "description": "a collection of useful .NET, architecture, and general software development links"
     },
     {
       "repo": "runtime",
@@ -43,9 +41,7 @@
       "readme_show_pages": true,
       "githubio_show_pages": true,
       "githubio_show_repo": true,
-      "description": [
-        "the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository"
-      ]
+      "description": "the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository"
     },
     {
       "repo": "meteo",
@@ -53,9 +49,7 @@
       "readme_show_pages": true,
       "githubio_show_pages": true,
       "githubio_show_repo": true,
-      "description": [
-        "a compilation of Croatia and Europe weather radar and satellite images"
-      ]
+      "description": "a compilation of Croatia and Europe weather radar and satellite images"
     },
     {
       "repo": "view-all-branches",
@@ -63,9 +57,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "a browser extension that takes you directly to the 'All Branches' page"
-      ]
+      "description": "a browser extension that takes you directly to the 'All Branches' page"
     },
     {
       "repo": "2fa-cli",
@@ -73,9 +65,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "a simple 2FA command-line utility"
-      ]
+      "description": "a simple 2FA command-line utility"
     },
     {
       "repo": "guidreplace",
@@ -83,9 +73,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
-      ]
+      "description": "a simple command-line tool for replacing GUIDs (UUIDs) in text files or standard input"
     },
     {
       "repo": "TimestampCopy",
@@ -93,9 +81,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "Windows File Explorer context menu to copy and paste file and folder timestamps"
-      ]
+      "description": "Windows File Explorer context menu to copy and paste file and folder timestamps"
     },
     {
       "repo": "Comets",
@@ -103,12 +89,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
-      ],
-      "readmeDescr": [
-        "archive repo: [Comets-Archive](https://github.com/jurakovic/Comets-Archive)"
-      ]
+      "description": "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
     },
     {
       "repo": "OrbitViewer.NET",
@@ -116,9 +97,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet"
-      ]
+      "description": "C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet"
     },
     {
       "repo": "cayman-blue",
@@ -126,9 +105,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": [
-        "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
-      ]
+      "description": "[Cayman theme](https://github.com/pages-themes/cayman) fork used for my GitHub Pages sites"
     },
     {
       "repo": "PowerTimer",
@@ -136,9 +113,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": false,
       "githubio_show_repo": true,
-      "description": [
-        "small Windows shut down timer"
-      ]
+      "description": "small Windows shut down timer"
     }
   ]
 }
