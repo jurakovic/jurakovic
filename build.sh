@@ -58,48 +58,37 @@ jq -c '.projects[]' "$json" | while read i; do
   readme_show_pages=$(echo "$i" | jq -r '.readme_show_pages')
   githubio_show_pages=$(echo "$i" | jq -r '.githubio_show_pages')
   githubio_show_repo=$(echo "$i" | jq -r '.githubio_show_repo')
-  mapfile -t descr < <(echo "$i" | jq -r '.description[]')
-  mapfile -t readmeDescr < <(echo "$i" | jq -r '.readmeDescr[]?')
+  description=$(echo "$i" | jq -r '.description')
 
   if [ "$repoType" = "readme" ]; then
 
-    echo "- $icon [**$repo**](https://github.com/$user/$repo)" >> $readme
-
-    for line in "${descr[@]}"; do
-      echo "    - $line" >> $readme
-    done
-
-    for line in "${readmeDescr[@]}"; do
-      echo "    - $line" >> $readme
-    done
+    pages_link=""
 
     if [ "$readme_show_pages" == "true" ]
     then
-      echo "    - <https://$user.github.io/$repo/>" >> $readme
+      pages_link=" ([GitHub Pages](https://$user.github.io/$repo/))"
     fi
+
+    echo "&nbsp; $icon [**$repo**](https://github.com/$user/$repo) / ${description}${pages_link}" >> $readme
+    echo "" >> $readme
 
   else # githubio
 
     if [ "$githubio_show_pages" == "true" ]
     then
-      echo "- $icon [**$repo**](https://$user.github.io/$repo/)" >> $readme
+      echo "&nbsp; $icon [**$repo**](https://$user.github.io/$repo/) / ${description}" >> $readme
     else
-      echo "- $icon $repo" >> $readme
+      echo "&nbsp; $icon $repo" >> $readme
     fi
-
-    for line in "${descr[@]}"; do
-      echo "    - $line" >> $readme
-    done
 
     if [ "$githubio_show_repo" == "true" ]
     then
-      echo "    - <https://github.com/$user/$repo>" >> $readme
+      echo "&nbsp; &nbsp; <https://github.com/$user/$repo>" >> $readme
     fi
   fi
 done
 
 cat << EOF >> $readme
-
 #### GitHub Activity
 
 <img src="https://ghchart.rshah.org/jurakovic" alt="GitHub Activity" />
