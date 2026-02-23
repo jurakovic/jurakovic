@@ -74,17 +74,20 @@ jq -c '.projects[]' "$json" | while read i; do
 
   else # githubio
 
-    if [ "$githubio_show_pages" == "true" ]
-    then
-      echo "&nbsp; $icon [**$repo**](https://$user.github.io/$repo/) / ${description}" >> $readme
-    else
-      echo "&nbsp; $icon $repo" >> $readme
-    fi
+    repo_link=""
 
     if [ "$githubio_show_repo" == "true" ]
     then
-      echo "&nbsp; &nbsp; <https://github.com/$user/$repo>" >> $readme
+      repo_link=" ([GitHub](https://github.com/$user/$repo))"
     fi
+
+    if [ "$githubio_show_pages" == "true" ]
+    then
+      echo "&nbsp; $icon [**$repo**](https://$user.github.io/$repo/) / ${description}${repo_link}" >> $readme
+    else
+      echo "&nbsp; $icon [**$repo**](https://github.com/$user/$repo) / ${description}" >> $readme
+    fi
+    echo "" >> $readme
   fi
 done
 
