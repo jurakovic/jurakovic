@@ -52,6 +52,14 @@
       "description": "a compilation of Croatia and Europe weather radar and satellite images"
     },
     {
+      "repo": "premium-fuel",
+      "icon": "⛽",
+      "readme_show_pages": true,
+      "githubio_show_pages": true,
+      "githubio_show_repo": true,
+      "description": "find INA gas stations selling premium fuel at the regular fuel price"
+    },
+    {
       "repo": "view-all-branches",
       "icon": "🌳",
       "readme_show_pages": false,
