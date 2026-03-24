@@ -36,6 +36,14 @@
       "description": "a collection of useful .NET, architecture, and general software development links"
     },
     {
+      "repo": "git-arx",
+      "icon": "🏛️",
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
+      "description": "a git tool for archiving local branches"
+    },
+    {
       "repo": "runtime",
       "icon": "📖",
       "readme_show_pages": true,
