@@ -33,6 +33,8 @@
 
 &nbsp; ⭐ [**dev-links**](https://github.com/jurakovic/dev-links) / a collection of useful .NET, architecture, and general software development links ([GitHub Pages](https://jurakovic.github.io/dev-links/))
 
+&nbsp; 🏛️ [**git-arx**](https://github.com/jurakovic/git-arx) / a git tool for archiving local branches
+
 &nbsp; 📖 [**runtime**](https://github.com/jurakovic/runtime) / the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository ([GitHub Pages](https://jurakovic.github.io/runtime/))
 
 &nbsp; ⛈ [**meteo**](https://github.com/jurakovic/meteo) / a compilation of Croatia and Europe weather radar and satellite images ([GitHub Pages](https://jurakovic.github.io/meteo/))
