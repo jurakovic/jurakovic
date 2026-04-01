@@ -100,6 +100,14 @@
       "description": "Windows File Explorer context menu to copy and paste file and folder timestamps"
     },
     {
+      "repo": "Celestia",
+      "icon": "🌕",
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
+      "description": "[Celestia 1.6.x](https://github.com/CelestiaProject/Celestia/tree/1.6.x) fork with added support for parabolic and hyperbolic comet orbits"
+    },
+    {
       "repo": "Comets",
       "icon": "☄",
       "readme_show_pages": false,
