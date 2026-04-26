@@ -33,7 +33,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&hide=java
+          options: username=${{ github.repository_owner }}&layout=compact&hide=java&langs_count=10&custom_title=Top%20Languages
           path: top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
