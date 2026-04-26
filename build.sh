@@ -106,7 +106,7 @@ cat << EOF >> $readme
 
 #### Build Status
 
-[![Update stats](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml/badge.svg)](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml)
+[![Update Stats](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml/badge.svg)](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml)
 [![Build Readme](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml)
 EOF
 
