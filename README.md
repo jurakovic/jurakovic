@@ -51,7 +51,7 @@
 
 &nbsp; 🌕 [**Celestia**](https://github.com/jurakovic/Celestia) / [Celestia 1.6.x](https://github.com/CelestiaProject/Celestia/tree/1.6.x) fork with added support for parabolic and hyperbolic comet orbits
 
-&nbsp; ☄ [**Comets**](https://github.com/jurakovic/Comets) / comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer
+&nbsp; ☄ [**Comets**](https://github.com/jurakovic/Comets) / comet ephemeris calculation, magnitude and distances graph, 3D orbit viewer
 
 &nbsp; 🪐 [**OrbitViewer.NET**](https://github.com/jurakovic/OrbitViewer.NET) / C# desktop implementation of [OrbitViewer](https://www.astroarts.co.jp/products/orbitviewer/index.html) Java applet
 
@@ -73,5 +73,5 @@
 
 #### Build Status
 
-[![Update stats](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml/badge.svg)](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml)
+[![Update Stats](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml/badge.svg)](https://github.com/jurakovic/jurakovic/actions/workflows/update-stats.yaml)
 [![Build Readme](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml/badge.svg)](https://github.com/jurakovic/jurakovic.github.io/actions/workflows/build.yaml)
