@@ -113,7 +113,7 @@
       "readme_show_pages": false,
       "githubio_show_pages": true,
       "githubio_show_repo": false,
-      "description": "comet ephemeris calculation, magnitude and distances graph, *3D* orbit viewer"
+      "description": "comet ephemeris calculation, magnitude and distances graph, 3D orbit viewer"
     },
     {
       "repo": "OrbitViewer.NET",
