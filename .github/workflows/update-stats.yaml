@@ -35,7 +35,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&exclude_repo=runtime,dapper,celestia,cayman-blue,wikitok,generate-sql-merge&hide=java,tsql,vbscript,go,just&langs_count=10&custom_title=Top%20Languages
           path: top-langs-light.svg
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update top-langs (dark)
         uses: readme-tools/github-readme-stats-action@v1
@@ -43,7 +43,7 @@ jobs:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&exclude_repo=runtime,dapper,celestia,cayman-blue,wikitok,generate-sql-merge&hide=java,tsql,vbscript,go,just&theme=github_dark_dimmed&langs_count=10&custom_title=Top%20Languages
           path: top-langs-dark.svg
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Git Commit
         run: |
