@@ -41,6 +41,8 @@
 
 &nbsp; ⛽ [**premium-fuel**](https://github.com/jurakovic/premium-fuel) / find INA gas stations selling premium fuel at the regular fuel price ([GitHub Pages](https://jurakovic.github.io/premium-fuel/))
 
+&nbsp; 🖼️ [**home-gallery**](https://github.com/jurakovic/home-gallery) / [HomeGallery](https://github.com/xemle/home-gallery) fork with folder-based albums, an 'On This Day' page, and list and grid layouts
+
 &nbsp; 🌳 [**view-all-branches**](https://github.com/jurakovic/view-all-branches) / a browser extension that takes you directly to the 'All Branches' page
 
 &nbsp; 🔑 [**2fa-cli**](https://github.com/jurakovic/2fa-cli) / a simple 2FA command-line utility

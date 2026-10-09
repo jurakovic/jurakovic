@@ -68,6 +68,14 @@
       "description": "find INA gas stations selling premium fuel at the regular fuel price"
     },
     {
+      "repo": "home-gallery",
+      "icon": "🖼️",
+      "readme_show_pages": false,
+      "githubio_show_pages": false,
+      "githubio_show_repo": false,
+      "description": "[HomeGallery](https://github.com/xemle/home-gallery) fork with folder-based albums, an 'On This Day' page, and list and grid layouts"
+    },
+    {
       "repo": "view-all-branches",
       "icon": "🌳",
       "readme_show_pages": false,
