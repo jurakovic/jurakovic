@@ -44,6 +44,14 @@
       "description": "a git tool for archiving local branches"
     },
     {
+      "repo": "passdroid",
+      "icon": "🔒",
+      "readme_show_pages": false,
+      "githubio_show_pages": true,
+      "githubio_show_repo": false,
+      "description": "[Passdroid](https://github.com/mangefoo/passdroid) fork with stronger encryption, fingerprint unlock, a dark theme, and built-in 2FA codes"
+    },
+    {
       "repo": "runtime",
       "icon": "📖",
       "readme_show_pages": true,

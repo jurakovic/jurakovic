@@ -35,6 +35,8 @@
 
 &nbsp; 🏛️ [**git-arx**](https://github.com/jurakovic/git-arx) / a git tool for archiving local branches
 
+&nbsp; 🔒 [**passdroid**](https://github.com/jurakovic/passdroid) / [Passdroid](https://github.com/mangefoo/passdroid) fork with stronger encryption, fingerprint unlock, a dark theme, and built-in 2FA codes
+
 &nbsp; 📖 [**runtime**](https://github.com/jurakovic/runtime) / the [_Book of the Runtime_](https://github.com/dotnet/runtime/tree/main/docs/design/coreclr/botr/README.md) build repository ([GitHub Pages](https://jurakovic.github.io/runtime/))
 
 &nbsp; ⛈ [**meteo**](https://github.com/jurakovic/meteo) / a compilation of Croatia and Europe weather radar and satellite images ([GitHub Pages](https://jurakovic.github.io/meteo/))
